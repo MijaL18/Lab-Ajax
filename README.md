@@ -11,7 +11,7 @@ Para crear la imagen Docker, ejecuta el siguiente comando en el directorio donde
 
 ```bash
 docker build -f dockerfile5.txt -t dabam .
-exit
+```
 
 ## 📦 **Creación del contenedor**
 
@@ -19,4 +19,4 @@ Para crear el contenedor Docker, ejecuta el siguiente comando en el directorio d
 
 ```bash
 docker run -d -p 8185:80 -p 2204:22 --name mydabaM dabam
-exit
+```
